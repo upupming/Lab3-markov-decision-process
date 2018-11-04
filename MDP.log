@@ -1,0 +1,24 @@
+Transition probablity P[before_sold][after_sold] =
+[[1.   0.   0.   0.  ]
+ [0.75 0.25 0.   0.  ]
+ [0.25 0.5  0.25 0.  ]
+ [0.   0.25 0.5  0.25]]
+
+Reward matrix R[current_stock][action] =
+[[ 0.  3.  2. -1.]
+ [ 5.  4.  1.  0.]
+ [ 6.  3.  0.  0.]
+ [ 5.  0.  0.  0.]]
+
+Cumulative maximum reward u[time][current_stock] =
+[[ 9.     11.625  14.4375 15.125 ]
+ [ 6.      8.5    10.75   10.5   ]
+ [ 3.      5.      6.      5.    ]
+ [ 0.      0.      0.      0.    ]]
+
+Best action a[time][current_stock] = 
+[[1. 0. 0. 0.]
+ [1. 0. 0. 0.]
+ [1. 0. 0. 0.]
+ [0. 0. 0. 0.]]
+
