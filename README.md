@@ -403,7 +403,9 @@ $$
 
 #### T = 20
 
-<object data="./MDP-20.log" width="1000px" height="7400px"></object>
+<object data="./MDP-20.log" width="1000px" height="7200px"></object>
+
+自然语言解释：当初始状态库存是 $3$ 时，不购进，之后同样依据最优决策矩阵采取最优决策，整个过程的平均收益是 $83.41666667$。
 
 ## 源代码
 
