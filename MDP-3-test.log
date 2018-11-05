@@ -1,0 +1,89 @@
+T = 3 
+
+Transition probablity P[before_sold][after_sold] =
+[[1.   0.   0.   0.  ]
+ [0.75 0.25 0.   0.  ]
+ [0.25 0.5  0.25 0.  ]
+ [0.   0.25 0.5  0.25]]
+
+Reward matrix R[current_stock][action] =
+[[ 0 -1 -2 -5]
+ [ 5  0 -3  0]
+ [ 6 -1  0  0]
+ [ 5  0  0  0]]
+
+Calculating time: 2
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 0.0
+		 if take action: 1 the cumulative reward will be: -1.0
+		 if take action: 2 the cumulative reward will be: -2.0
+		 if take action: 3 the cumulative reward will be: -5.0
+	 so we choose action: 0 and will get max reward: 0
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 5.0
+		 if take action: 1 the cumulative reward will be: 0.0
+		 if take action: 2 the cumulative reward will be: -3.0
+	 so we choose action: 0 and will get max reward: 5.0
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 6.0
+		 if take action: 1 the cumulative reward will be: -1.0
+	 so we choose action: 0 and will get max reward: 6.0
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 5.0
+	 so we choose action: 0 and will get max reward: 5.0
+
+
+Calculating time: 1
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 0.0
+		 if take action: 1 the cumulative reward will be: 0.25
+		 if take action: 2 the cumulative reward will be: 2.0
+		 if take action: 3 the cumulative reward will be: 0.5
+	 so we choose action: 2 and will get max reward: 2.0
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 6.25
+		 if take action: 1 the cumulative reward will be: 4.0
+		 if take action: 2 the cumulative reward will be: 2.5
+	 so we choose action: 0 and will get max reward: 6.25
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 10.0
+		 if take action: 1 the cumulative reward will be: 4.5
+	 so we choose action: 0 and will get max reward: 10.0
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 10.5
+	 so we choose action: 0 and will get max reward: 10.5
+
+
+Calculating time: 0
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 2.0
+		 if take action: 1 the cumulative reward will be: 2.0625
+		 if take action: 2 the cumulative reward will be: 4.125
+		 if take action: 3 the cumulative reward will be: 4.1875
+	 so we choose action: 3 and will get max reward: 4.1875
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 8.0625
+		 if take action: 1 the cumulative reward will be: 6.125
+		 if take action: 2 the cumulative reward will be: 6.1875
+	 so we choose action: 0 and will get max reward: 8.0625
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 12.125
+		 if take action: 1 the cumulative reward will be: 8.1875
+	 so we choose action: 0 and will get max reward: 12.125
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 14.1875
+	 so we choose action: 0 and will get max reward: 14.1875
+
+
+Cumulative maximum reward u[time][current_stock] =
+[[ 4.1875  8.0625 12.125  14.1875]
+ [ 2.      6.25   10.     10.5   ]
+ [ 0.      5.      6.      5.    ]
+ [ 0.      0.      0.      0.    ]]
+
+Best action a[time][current_stock] = 
+[[3. 0. 0. 0.]
+ [2. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]]
+

@@ -1,0 +1,480 @@
+T = 20 
+
+Transition probablity P[before_sold][after_sold] =
+[[1.   0.   0.   0.  ]
+ [0.75 0.25 0.   0.  ]
+ [0.25 0.5  0.25 0.  ]
+ [0.   0.25 0.5  0.25]]
+
+Reward matrix R[current_stock][action] =
+[[ 0.  3.  2. -1.]
+ [ 5.  4.  1.  0.]
+ [ 6.  3.  0.  0.]
+ [ 5.  0.  0.  0.]]
+
+Calculating time: 19
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 0.0
+		 if take action: 1 the cumulative reward will be: 3.0
+		 if take action: 2 the cumulative reward will be: 2.0
+		 if take action: 3 the cumulative reward will be: -1.0
+	 so we choose action: 1 and will get max reward: 3.0
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 5.0
+		 if take action: 1 the cumulative reward will be: 4.0
+		 if take action: 2 the cumulative reward will be: 1.0
+	 so we choose action: 0 and will get max reward: 5.0
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 6.0
+		 if take action: 1 the cumulative reward will be: 3.0
+	 so we choose action: 0 and will get max reward: 6.0
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 5.0
+	 so we choose action: 0 and will get max reward: 5.0
+
+
+Calculating time: 18
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 3.0
+		 if take action: 1 the cumulative reward will be: 6.5
+		 if take action: 2 the cumulative reward will be: 6.75
+		 if take action: 3 the cumulative reward will be: 4.5
+	 so we choose action: 2 and will get max reward: 6.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 8.5
+		 if take action: 1 the cumulative reward will be: 8.75
+		 if take action: 2 the cumulative reward will be: 6.5
+	 so we choose action: 1 and will get max reward: 8.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 10.75
+		 if take action: 1 the cumulative reward will be: 8.5
+	 so we choose action: 0 and will get max reward: 10.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 10.5
+	 so we choose action: 0 and will get max reward: 10.5
+
+
+Calculating time: 17
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 6.75
+		 if take action: 1 the cumulative reward will be: 10.25
+		 if take action: 2 the cumulative reward will be: 10.75
+		 if take action: 3 the cumulative reward will be: 9.1875
+	 so we choose action: 2 and will get max reward: 10.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 12.25
+		 if take action: 1 the cumulative reward will be: 12.75
+		 if take action: 2 the cumulative reward will be: 11.1875
+	 so we choose action: 1 and will get max reward: 12.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 14.75
+		 if take action: 1 the cumulative reward will be: 13.1875
+	 so we choose action: 0 and will get max reward: 14.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 15.1875
+	 so we choose action: 0 and will get max reward: 15.1875
+
+
+Calculating time: 16
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 10.75
+		 if take action: 1 the cumulative reward will be: 14.25
+		 if take action: 2 the cumulative reward will be: 14.75
+		 if take action: 3 the cumulative reward will be: 13.359375
+	 so we choose action: 2 and will get max reward: 14.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 16.25
+		 if take action: 1 the cumulative reward will be: 16.75
+		 if take action: 2 the cumulative reward will be: 15.359375
+	 so we choose action: 1 and will get max reward: 16.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 18.75
+		 if take action: 1 the cumulative reward will be: 17.359375
+	 so we choose action: 0 and will get max reward: 18.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 19.359375
+	 so we choose action: 0 and will get max reward: 19.359375
+
+
+Calculating time: 15
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 14.75
+		 if take action: 1 the cumulative reward will be: 18.25
+		 if take action: 2 the cumulative reward will be: 18.75
+		 if take action: 3 the cumulative reward will be: 17.40234375
+	 so we choose action: 2 and will get max reward: 18.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 20.25
+		 if take action: 1 the cumulative reward will be: 20.75
+		 if take action: 2 the cumulative reward will be: 19.40234375
+	 so we choose action: 1 and will get max reward: 20.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 22.75
+		 if take action: 1 the cumulative reward will be: 21.40234375
+	 so we choose action: 0 and will get max reward: 22.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 23.40234375
+	 so we choose action: 0 and will get max reward: 23.40234375
+
+
+Calculating time: 14
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 18.75
+		 if take action: 1 the cumulative reward will be: 22.25
+		 if take action: 2 the cumulative reward will be: 22.75
+		 if take action: 3 the cumulative reward will be: 21.4130859375
+	 so we choose action: 2 and will get max reward: 22.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 24.25
+		 if take action: 1 the cumulative reward will be: 24.75
+		 if take action: 2 the cumulative reward will be: 23.4130859375
+	 so we choose action: 1 and will get max reward: 24.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 26.75
+		 if take action: 1 the cumulative reward will be: 25.4130859375
+	 so we choose action: 0 and will get max reward: 26.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 27.4130859375
+	 so we choose action: 0 and will get max reward: 27.4130859375
+
+
+Calculating time: 13
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 22.75
+		 if take action: 1 the cumulative reward will be: 26.25
+		 if take action: 2 the cumulative reward will be: 26.75
+		 if take action: 3 the cumulative reward will be: 25.415771484375
+	 so we choose action: 2 and will get max reward: 26.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 28.25
+		 if take action: 1 the cumulative reward will be: 28.75
+		 if take action: 2 the cumulative reward will be: 27.415771484375
+	 so we choose action: 1 and will get max reward: 28.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 30.75
+		 if take action: 1 the cumulative reward will be: 29.415771484375
+	 so we choose action: 0 and will get max reward: 30.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 31.415771484375
+	 so we choose action: 0 and will get max reward: 31.415771484375
+
+
+Calculating time: 12
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 26.75
+		 if take action: 1 the cumulative reward will be: 30.25
+		 if take action: 2 the cumulative reward will be: 30.75
+		 if take action: 3 the cumulative reward will be: 29.41644287109375
+	 so we choose action: 2 and will get max reward: 30.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 32.25
+		 if take action: 1 the cumulative reward will be: 32.75
+		 if take action: 2 the cumulative reward will be: 31.41644287109375
+	 so we choose action: 1 and will get max reward: 32.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 34.75
+		 if take action: 1 the cumulative reward will be: 33.41644287109375
+	 so we choose action: 0 and will get max reward: 34.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 35.41644287109375
+	 so we choose action: 0 and will get max reward: 35.41644287109375
+
+
+Calculating time: 11
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 30.75
+		 if take action: 1 the cumulative reward will be: 34.25
+		 if take action: 2 the cumulative reward will be: 34.75
+		 if take action: 3 the cumulative reward will be: 33.41661071777344
+	 so we choose action: 2 and will get max reward: 34.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 36.25
+		 if take action: 1 the cumulative reward will be: 36.75
+		 if take action: 2 the cumulative reward will be: 35.41661071777344
+	 so we choose action: 1 and will get max reward: 36.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 38.75
+		 if take action: 1 the cumulative reward will be: 37.41661071777344
+	 so we choose action: 0 and will get max reward: 38.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 39.41661071777344
+	 so we choose action: 0 and will get max reward: 39.41661071777344
+
+
+Calculating time: 10
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 34.75
+		 if take action: 1 the cumulative reward will be: 38.25
+		 if take action: 2 the cumulative reward will be: 38.75
+		 if take action: 3 the cumulative reward will be: 37.41665267944336
+	 so we choose action: 2 and will get max reward: 38.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 40.25
+		 if take action: 1 the cumulative reward will be: 40.75
+		 if take action: 2 the cumulative reward will be: 39.41665267944336
+	 so we choose action: 1 and will get max reward: 40.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 42.75
+		 if take action: 1 the cumulative reward will be: 41.41665267944336
+	 so we choose action: 0 and will get max reward: 42.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 43.41665267944336
+	 so we choose action: 0 and will get max reward: 43.41665267944336
+
+
+Calculating time: 9
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 38.75
+		 if take action: 1 the cumulative reward will be: 42.25
+		 if take action: 2 the cumulative reward will be: 42.75
+		 if take action: 3 the cumulative reward will be: 41.41666316986084
+	 so we choose action: 2 and will get max reward: 42.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 44.25
+		 if take action: 1 the cumulative reward will be: 44.75
+		 if take action: 2 the cumulative reward will be: 43.41666316986084
+	 so we choose action: 1 and will get max reward: 44.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 46.75
+		 if take action: 1 the cumulative reward will be: 45.41666316986084
+	 so we choose action: 0 and will get max reward: 46.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 47.41666316986084
+	 so we choose action: 0 and will get max reward: 47.41666316986084
+
+
+Calculating time: 8
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 42.75
+		 if take action: 1 the cumulative reward will be: 46.25
+		 if take action: 2 the cumulative reward will be: 46.75
+		 if take action: 3 the cumulative reward will be: 45.41666579246521
+	 so we choose action: 2 and will get max reward: 46.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 48.25
+		 if take action: 1 the cumulative reward will be: 48.75
+		 if take action: 2 the cumulative reward will be: 47.41666579246521
+	 so we choose action: 1 and will get max reward: 48.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 50.75
+		 if take action: 1 the cumulative reward will be: 49.41666579246521
+	 so we choose action: 0 and will get max reward: 50.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 51.41666579246521
+	 so we choose action: 0 and will get max reward: 51.41666579246521
+
+
+Calculating time: 7
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 46.75
+		 if take action: 1 the cumulative reward will be: 50.25
+		 if take action: 2 the cumulative reward will be: 50.75
+		 if take action: 3 the cumulative reward will be: 49.4166664481163
+	 so we choose action: 2 and will get max reward: 50.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 52.25
+		 if take action: 1 the cumulative reward will be: 52.75
+		 if take action: 2 the cumulative reward will be: 51.4166664481163
+	 so we choose action: 1 and will get max reward: 52.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 54.75
+		 if take action: 1 the cumulative reward will be: 53.4166664481163
+	 so we choose action: 0 and will get max reward: 54.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 55.4166664481163
+	 so we choose action: 0 and will get max reward: 55.4166664481163
+
+
+Calculating time: 6
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 50.75
+		 if take action: 1 the cumulative reward will be: 54.25
+		 if take action: 2 the cumulative reward will be: 54.75
+		 if take action: 3 the cumulative reward will be: 53.416666612029076
+	 so we choose action: 2 and will get max reward: 54.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 56.25
+		 if take action: 1 the cumulative reward will be: 56.75
+		 if take action: 2 the cumulative reward will be: 55.416666612029076
+	 so we choose action: 1 and will get max reward: 56.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 58.75
+		 if take action: 1 the cumulative reward will be: 57.416666612029076
+	 so we choose action: 0 and will get max reward: 58.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 59.416666612029076
+	 so we choose action: 0 and will get max reward: 59.416666612029076
+
+
+Calculating time: 5
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 54.75
+		 if take action: 1 the cumulative reward will be: 58.25
+		 if take action: 2 the cumulative reward will be: 58.75
+		 if take action: 3 the cumulative reward will be: 57.41666665300727
+	 so we choose action: 2 and will get max reward: 58.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 60.25
+		 if take action: 1 the cumulative reward will be: 60.75
+		 if take action: 2 the cumulative reward will be: 59.41666665300727
+	 so we choose action: 1 and will get max reward: 60.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 62.75
+		 if take action: 1 the cumulative reward will be: 61.41666665300727
+	 so we choose action: 0 and will get max reward: 62.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 63.41666665300727
+	 so we choose action: 0 and will get max reward: 63.41666665300727
+
+
+Calculating time: 4
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 58.75
+		 if take action: 1 the cumulative reward will be: 62.25
+		 if take action: 2 the cumulative reward will be: 62.75
+		 if take action: 3 the cumulative reward will be: 61.41666666325182
+	 so we choose action: 2 and will get max reward: 62.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 64.25
+		 if take action: 1 the cumulative reward will be: 64.75
+		 if take action: 2 the cumulative reward will be: 63.41666666325182
+	 so we choose action: 1 and will get max reward: 64.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 66.75
+		 if take action: 1 the cumulative reward will be: 65.41666666325182
+	 so we choose action: 0 and will get max reward: 66.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 67.41666666325182
+	 so we choose action: 0 and will get max reward: 67.41666666325182
+
+
+Calculating time: 3
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 62.75
+		 if take action: 1 the cumulative reward will be: 66.25
+		 if take action: 2 the cumulative reward will be: 66.75
+		 if take action: 3 the cumulative reward will be: 65.41666666581295
+	 so we choose action: 2 and will get max reward: 66.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 68.25
+		 if take action: 1 the cumulative reward will be: 68.75
+		 if take action: 2 the cumulative reward will be: 67.41666666581295
+	 so we choose action: 1 and will get max reward: 68.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 70.75
+		 if take action: 1 the cumulative reward will be: 69.41666666581295
+	 so we choose action: 0 and will get max reward: 70.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 71.41666666581295
+	 so we choose action: 0 and will get max reward: 71.41666666581295
+
+
+Calculating time: 2
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 66.75
+		 if take action: 1 the cumulative reward will be: 70.25
+		 if take action: 2 the cumulative reward will be: 70.75
+		 if take action: 3 the cumulative reward will be: 69.41666666645324
+	 so we choose action: 2 and will get max reward: 70.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 72.25
+		 if take action: 1 the cumulative reward will be: 72.75
+		 if take action: 2 the cumulative reward will be: 71.41666666645324
+	 so we choose action: 1 and will get max reward: 72.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 74.75
+		 if take action: 1 the cumulative reward will be: 73.41666666645324
+	 so we choose action: 0 and will get max reward: 74.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 75.41666666645324
+	 so we choose action: 0 and will get max reward: 75.41666666645324
+
+
+Calculating time: 1
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 70.75
+		 if take action: 1 the cumulative reward will be: 74.25
+		 if take action: 2 the cumulative reward will be: 74.75
+		 if take action: 3 the cumulative reward will be: 73.41666666661331
+	 so we choose action: 2 and will get max reward: 74.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 76.25
+		 if take action: 1 the cumulative reward will be: 76.75
+		 if take action: 2 the cumulative reward will be: 75.41666666661331
+	 so we choose action: 1 and will get max reward: 76.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 78.75
+		 if take action: 1 the cumulative reward will be: 77.41666666661331
+	 so we choose action: 0 and will get max reward: 78.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 79.41666666661331
+	 so we choose action: 0 and will get max reward: 79.41666666661331
+
+
+Calculating time: 0
+	 if current stock is: 0
+		 if take action: 0 the cumulative reward will be: 74.75
+		 if take action: 1 the cumulative reward will be: 78.25
+		 if take action: 2 the cumulative reward will be: 78.75
+		 if take action: 3 the cumulative reward will be: 77.41666666665333
+	 so we choose action: 2 and will get max reward: 78.75
+	 if current stock is: 1
+		 if take action: 0 the cumulative reward will be: 80.25
+		 if take action: 1 the cumulative reward will be: 80.75
+		 if take action: 2 the cumulative reward will be: 79.41666666665333
+	 so we choose action: 1 and will get max reward: 80.75
+	 if current stock is: 2
+		 if take action: 0 the cumulative reward will be: 82.75
+		 if take action: 1 the cumulative reward will be: 81.41666666665333
+	 so we choose action: 0 and will get max reward: 82.75
+	 if current stock is: 3
+		 if take action: 0 the cumulative reward will be: 83.41666666665333
+	 so we choose action: 0 and will get max reward: 83.41666666665333
+
+
+Cumulative maximum reward u[time][current_stock] =
+[[78.75       80.75       82.75       83.41666667]
+ [74.75       76.75       78.75       79.41666667]
+ [70.75       72.75       74.75       75.41666667]
+ [66.75       68.75       70.75       71.41666667]
+ [62.75       64.75       66.75       67.41666666]
+ [58.75       60.75       62.75       63.41666665]
+ [54.75       56.75       58.75       59.41666661]
+ [50.75       52.75       54.75       55.41666645]
+ [46.75       48.75       50.75       51.41666579]
+ [42.75       44.75       46.75       47.41666317]
+ [38.75       40.75       42.75       43.41665268]
+ [34.75       36.75       38.75       39.41661072]
+ [30.75       32.75       34.75       35.41644287]
+ [26.75       28.75       30.75       31.41577148]
+ [22.75       24.75       26.75       27.41308594]
+ [18.75       20.75       22.75       23.40234375]
+ [14.75       16.75       18.75       19.359375  ]
+ [10.75       12.75       14.75       15.1875    ]
+ [ 6.75        8.75       10.75       10.5       ]
+ [ 3.          5.          6.          5.        ]
+ [ 0.          0.          0.          0.        ]]
+
+Best action a[time][current_stock] = 
+[[2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [2. 1. 0. 0.]
+ [1. 0. 0. 0.]
+ [0. 0. 0. 0.]]
+
